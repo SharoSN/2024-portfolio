@@ -8,7 +8,7 @@ import { Button } from "./ui/button";
 
 const HeroSection = () => {
   return (
-    <section  className="lg:py-16">
+    <section  className=" lg:py-16">
       <div className="grid grid-cols-1 lg:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -16,7 +16,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mt-6 mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-rose-900">
               Hello, I&apos;m{" "}
             </span>
