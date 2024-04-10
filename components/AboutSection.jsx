@@ -42,8 +42,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-none pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Coursera Front-End Developer Professional Certificate</li>
+        <li>Coursera Back-End Developer Professional Certificate</li>
       </ul>
     ),
   },
