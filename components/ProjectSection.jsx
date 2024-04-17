@@ -56,8 +56,8 @@ const projectsData = [
     description: "Project 6: Rock paper scissors. ",
     image: "/images/10.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/nftGambler/Game",
-    previewUrl: "https://nftgambler.github.io/Game/",
+    gitUrl: "https://github.com/SharoSN/Game",
+    previewUrl: "https://sharosn.github.io/Game/",
   },
 ];
 
