@@ -5,10 +5,22 @@ import ProjectTag from "./ ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
+
+
+  {
+    id: 6,
+    title: "Imaginify",
+    description: "AI image editor Project",
+    image: "/images/imaginify.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/SharoSN/imaginify",
+    previewUrl: "https://imaginify-psi-nine.vercel.app/",
+  },
+
   {
     id: 1,
     title: "Job Tracking Application",
-    description: "Project 1: A web application designed to track and mange your job applications progress, providing comprehensive insights into your application statistics.",
+    description: "A web application designed to track and mange your job applications progress, providing comprehensive insights into your application statistics.",
     image: "/images/1.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/nftGambler/jobify",
@@ -17,7 +29,7 @@ const projectsData = [
   {
     id: 2,
     title: "Crypto Currency Markeplace",
-    description: "Project 2: A Crypto Marketplace to follow your favourite crypto coin.",
+    description: "A Crypto Marketplace to follow your favourite crypto coin.",
     image: "/images/2.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -26,7 +38,7 @@ const projectsData = [
   {
     id: 3,
     title: "Client Project",
-    description: "Project 3: A project to help the client in promoting and hiring for his trucking company",
+    description: "A project to help the client in promoting and hiring for his trucking company",
     image: "/images/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/nftGambler/shuhabtruck",
@@ -35,7 +47,7 @@ const projectsData = [
   {
     id: 4,
     title: "Amazon Clone Project",
-    description: "Project 4: Amazone clone web application",
+    description: "Amazone clone web application",
     image: "/images/8.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/nftGambler/Amazon-Project",
@@ -44,7 +56,7 @@ const projectsData = [
   {
     id: 5,
     title: "Price Wise E-Commerce",
-    description: "Project 5: An E-Commerce web application that lets you follow the best sales on your favourite products.",
+    description: "An E-Commerce web application that lets you follow the best sales on your favourite products.",
     image: "/images/9.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/nftGambler/pricewise",
@@ -53,12 +65,16 @@ const projectsData = [
   {
     id: 6,
     title: "Mini Game",
-    description: "Project 6: Rock paper scissors. ",
+    description: "Rock paper scissors. ",
     image: "/images/10.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/SharoSN/Game",
     previewUrl: "https://sharosn.github.io/Game/",
   },
+
+
+
+  
 ];
 
 const ProjectsSection = () => {
