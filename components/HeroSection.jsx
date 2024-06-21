@@ -5,10 +5,11 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Button } from "./ui/button";
+import ChatBot from "./ChatBot";
 
 const HeroSection = () => {
   return (
-    <section  className=" lg:py-16">
+    <section className=" lg:py-16">
       <div className="grid grid-cols-1 lg:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -31,6 +32,8 @@ const HeroSection = () => {
                 1000,
                 "UI/UX Designer",
                 1000,
+                "AI-specialized",
+                1000,
               ]}
               wrapper="span"
               speed={50}
@@ -38,8 +41,10 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Full-Stack developer who is dedicated to learning and growing every day. Web development is not just
-            a career path for me, it is my passion.
+            Full-Stack Developer Specializing in Integrating LLMs into Web
+            Applications Using LangChain.js I am dedicated to learning and
+            growing every day. Web development is not just a career path for me,
+            it is my passion.
           </p>
           <div className="flex flex-col items-center md:flex-row lg:flex-row">
             <Link
@@ -71,7 +76,6 @@ const HeroSection = () => {
               className=" absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
               height={300}
-
             />
           </div>
         </motion.div>
