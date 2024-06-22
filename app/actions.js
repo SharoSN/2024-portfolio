@@ -10,9 +10,14 @@ export async function generateAnswer(prompt) {
   const personalInfo = `
   Name: Sahil Noorzai
   Age: 29 years old
-  Background: From Germany I am born in Russia my My mother is from russia and my father is from Afghanistan.
-  Experience: 2 years experience in web development.
+  height: 1.87m
+  languages: German, English, Farsi
+  Favourite Boxer: Mohammed Ali
+  Eye Color: Dark Brown
   
+  Background: From Germany but live in Montreal Canada, I am born in Russia my My mother is from russia and my father is from Afghanistan.
+  Experience: 2 years experience in web development.
+    
   Strength: Fast learner, team player, funny and seriouse sometimes! 
 
   Description: Sahil Noorzai is a web developer specializing in integrating large language models (LLMs) into web applications using LangChain.js.
