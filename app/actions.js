@@ -16,7 +16,7 @@ export async function generateAnswer(prompt) {
   Eye Color: Dark Brown
   
   Background: From Germany but live in Montreal Canada, I am born in Russia my My mother is from russia and my father is from Afghanistan.
-  Experience: 2 years experience in web development.
+  Experience: 2 years experience in web development, 2 years experience in javascript, next.js, react.js and node.js.
     
   Strength: Fast learner, team player, funny and seriouse sometimes! 
 
