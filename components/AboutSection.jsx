@@ -16,6 +16,7 @@ const TAB_DATA = [
         <li>JavaScript</li>
         <li>CSS/Tailwind</li>
         <li>Langchain.js (LLMs)</li>
+        <li>Pinecone</li>
       </ul>
     ),
   },
@@ -91,4 +92,3 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
-

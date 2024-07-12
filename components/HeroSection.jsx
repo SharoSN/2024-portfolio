@@ -32,8 +32,6 @@ const HeroSection = () => {
                 1000,
                 "UI/UX Designer",
                 1000,
-                "AI-specialized",
-                1000,
               ]}
               wrapper="span"
               speed={50}
@@ -42,9 +40,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             Full-Stack Developer Specializing in Integrating LLMs into Web
-            Applications Using LangChain.js I am dedicated to learning and
-            growing every day. Web development is not just a career path for me,
-            it is my passion.
+            Applications using LangChain.js.
           </p>
           <div className="flex flex-col items-center md:flex-row lg:flex-row">
             <Link
