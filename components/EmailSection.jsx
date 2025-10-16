@@ -1,12 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import GithubIcon from "../public/images/github-icon.svg"
+import GithubIcon from "../public/images/github-icon.svg";
 import LinkedinIcon from "../public/images/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
-
-
-
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -38,9 +35,7 @@ const EmailSection = () => {
     } catch (error) {
       setError(error.message);
     }
-
   };
-
 
   return (
     <section
@@ -54,16 +49,11 @@ const EmailSection = () => {
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          I&apos;m actively seeking new opportunities and welcome any inquiries or messages you may have. Whether you have a question or simply want to say hello, feel free to reach out, and I&apos;ll do my best to respond promptly!
+          I&apos;m actively seeking new opportunities and welcome any inquiries
+          or messages you may have. Whether you have a question or simply want
+          to say hello, feel free to reach out, and I&apos;ll do my best to
+          respond promptly!
         </p>
-        <div className="socials flex flex-row gap-2">
-          <Link href="https://github.com/nftGambler">
-            <Image src={GithubIcon} alt="Github Icon" />
-          </Link>
-          <Link href="https://www.linkedin.com/in/sahil-noorzai-0a2b87300/">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
-          </Link>
-        </div>
       </div>
       <div>
         {emailSubmitted ? (
@@ -77,7 +67,7 @@ const EmailSection = () => {
                 htmlFor="email"
                 className="text-white block mb-2 text-lg font-medium"
               >
-                Email: 
+                Email:
               </label>
               {/* <input
                 name="email"
@@ -87,15 +77,14 @@ const EmailSection = () => {
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
                 placeholder="jacob@google.com"
               /> */}
-            <span className="text-[#ADB7BE]">sharo.s.n@hotmail.com</span>
+              <span className="text-[#ADB7BE]">sharo.s.n@hotmail.com</span>
             </div>
             <div className="mb-6">
               <label
                 htmlFor="subject"
                 className="text-white block text-lg mb-2 font-medium"
               >
-                Phone: 
-
+                Phone:
               </label>
               {/* <input
                 name="subject"
@@ -106,9 +95,7 @@ const EmailSection = () => {
                 placeholder="Just saying hi"
               /> */}
 
-              <span className="text-[#ADB7BE]">+1 438-528-6982</span>
-
-              
+              <span className="text-[#ADB7BE]">+49 1729118473</span>
             </div>
 
             <div className="mb-6">
@@ -116,8 +103,7 @@ const EmailSection = () => {
                 htmlFor="subject"
                 className="text-white block text-lg mb-2 font-medium"
               >
-                Location: 
-
+                Location:
               </label>
               {/* <input
                 name="subject"
@@ -128,11 +114,8 @@ const EmailSection = () => {
                 placeholder="Just saying hi"
               /> */}
 
-              <span className="text-[#ADB7BE]">Canada, QC, Montreal</span>
-
-              
+              <span className="text-[#ADB7BE]">Germany, Frankfurt am Main</span>
             </div>
- 
           </form>
         )}
       </div>
@@ -141,3 +124,4 @@ const EmailSection = () => {
 };
 
 export default EmailSection;
+

@@ -4,8 +4,6 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Button } from "./ui/button";
-import ChatBot from "./ChatBot";
 
 const HeroSection = () => {
   return (
@@ -24,7 +22,7 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Sahil",
+                "Sharam Shubab",
                 1000,
                 "Web Developer",
                 1000,
@@ -39,8 +37,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Full-Stack Developer Specializing in Integrating LLMs into Web
-            Applications using LangChain.js.
+            Full-Stack Developer with expertise in React/React Native and LLM
+            integration for web and mobile apps.
           </p>
           <div className="flex flex-col items-center md:flex-row lg:flex-row">
             <Link
@@ -50,12 +48,10 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/2024-SN.pdf"
-              className="border border-white px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-r to-sky-400 from-rose-900 hover:bg-slate-800 text-white mt-3"
+              href="/Sharam_Shubab_2025.pdf"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-r to-sky-400 from-rose-900 hover:bg-slate-800 text-white mt-3"
             >
-              <span className="block bg-[#121212]   hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
-              </span>
+              <span className="block rounded-full px-5 py-2">Download CV</span>
             </Link>
           </div>
         </motion.div>
